@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    border: thin solid black;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.page-head {
+    display: flex;
+    background-image: url(../img/banner.jpg);
+    position: relative;
+    padding: 0 20px;
+    top: 0;
+    height: 200px;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-position: 100%;
+
+}
+
+.Logo-head {
+    width: 100%;
+}
+.nav-logo{
+    width: 600px;
+    padding-bottom: 50px;
+    padding-left: 40px;
+
+}
+.navigation{
+    display: flex;
+    position: relative;
+    background-color: transparent;
+}
+.nav-item {
+    display: flex;
+    margin-right: 20px;
+    font-size: 15px;
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.hero-box {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+}
+.hero-text{
+    width: 50%;
+}
+
+.head-txt {
+    padding-left: 50px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.head-stroke {
+    padding-left: 50px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.head-stroken {
+    padding-left: 50px;
+    font-weight: bold;
+}
+
+.head-content {
+    padding-bottom: 20px;
+    padding-left: 50px;
+
+}
+
+.hero-image-index {
+    width: 48%;
+    background-image: url(../img/theband.jpg);
+    background-size: contain;
+    background-position: center;
+}
+
+.hero-image-concert {
+    width: 60%;
+    background-image: url(../img/concert.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 30px;
+    margin-right: -10px;
+}
+
+.hero-image-info {
+    width: 60%;
+    background-image: url(../img/943933.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin: 30px;
+    margin-right: -10px;
+}
+
+.hero-image {
+    width: 60%;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    padding-top: 4px;
+  }
+  
+  .hero-image .image-medlemmer img {
+    width: 240px;
+    z-index: 4;
+  }
+  
+  .hero-image>div {
+    padding: 30px 0 40px 0;
+  }
+  
+  .hero-image .hero-row>div {
+    padding-bottom: 20px;
+  }
+  
+  .image-medlemmer {
+    position: relative;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+  }
+  
+  .hero-row {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    max-width: 75em;
+  }
+
+.page-foot {
+    display: flex;
+    background-image: url(../img/banner_footer.jpg);
+    position: relative;
+    padding: 0 30px;
+    height: 60px;
+    width: 100%;
+    background-position: 100%;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+.footer-box {
+display: flex;
+height: 100%;
+width: 100%;
+align-items: center;
+}
+.footer-txt{
+display: flex;
+font-size: 30px;
+font-style: bold;
+width: 50%;
+}
+.booking{
+display: flex;
+align-items: center;
+font-size: 30px;
+font-style: bold;
+}
+
+.footer-image{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 50%;
+    padding-left: 30px;
+}
+.foot-image {
+    display: flex;
+    align-items: center;    
+    width: 24px;
+    height: 24px;
+    margin-right: 20px;
+}
+.foot-image-band {
+    display: flex;
+    align-items: center;
+    width: 120px;
+    height: 30px;
+    margin-right: 20px;
+}
